@@ -1,0 +1,27 @@
+.header {
+  background-color: #f2f2f2;
+  padding: 15px 0;
+
+  nav {
+    a {
+      font-size: 20px;
+      color: #2c0548 !important;
+      font-weight: bold;
+      transition: all 0.2s;
+
+
+      &:hover {
+        transform: scale(1.1);
+        transition: all 0.2s;
+      }
+    }
+
+    ul {
+      li {
+        &:not(:last-child) {
+          margin-right: 44px;
+        }
+      }
+    }
+  }
+}

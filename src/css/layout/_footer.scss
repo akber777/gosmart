@@ -1,0 +1,37 @@
+.footer {
+  padding: 65px 0;
+  background-color: #2c0548;
+  max-height: 157px;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      color: #fff;
+      margin-bottom: 0;
+      font-size: 20px;
+      display: inline-flex;
+      align-items: center;
+
+      a {
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+
+        &:not(:last-child) {
+
+            margin-right: 35px;
+
+          &:after {
+            position: absolute;
+            right: -23px;
+            content: "/";
+
+          }
+        }
+      }
+    }
+  }
+}
